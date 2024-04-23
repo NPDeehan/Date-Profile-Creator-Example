@@ -1,0 +1,141 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f22cba6"
+  },
+  "schemaVersion": 16,
+  "id": "enter-details-about-yourself-17yogrl",
+  "components": [
+    {
+      "text": "### Dating Profile Form",
+      "type": "text",
+      "id": "Heading_0",
+      "layout": {
+        "row": "row_0",
+        "columns": null
+      }
+    },
+    {
+      "label": "Your Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0lxdrxr",
+        "columns": null
+      },
+      "id": "Field_0cxpuwh",
+      "key": "name"
+    },
+    {
+      "label": "Your Age",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0lxdrxr",
+        "columns": null
+      },
+      "id": "Field_0aqa309",
+      "key": "age"
+    },
+    {
+      "text": "##### Physical Description",
+      "type": "text",
+      "id": "Subheading_1",
+      "layout": {
+        "row": "row_1",
+        "columns": null
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "Textarea_2",
+      "label": "Detailed Physical Description",
+      "validate": {
+        "minLength": 50,
+        "maxLength": 500,
+        "required": true
+      },
+      "key": "detailedPhysicalDescription",
+      "layout": {
+        "row": "row_2",
+        "columns": null
+      }
+    },
+    {
+      "text": "##### Hobbies",
+      "type": "text",
+      "id": "Subheading_3",
+      "layout": {
+        "row": "row_3",
+        "columns": null
+      }
+    },
+    {
+      "components": [
+        {
+          "label": "Hobby",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_0mlm9ds",
+            "columns": null
+          },
+          "id": "Field_168t6vg",
+          "key": "hobby"
+        }
+      ],
+      "showOutline": true,
+      "isRepeating": true,
+      "allowAddRemove": true,
+      "defaultRepetitions": 1,
+      "label": "Your Hobbies",
+      "type": "dynamiclist",
+      "layout": {
+        "row": "Row_00o47a8",
+        "columns": null
+      },
+      "id": "Field_0qkv1qu",
+      "path": "hobbies"
+    },
+    {
+      "text": "##### Ideal Date",
+      "type": "text",
+      "id": "Subheading_5",
+      "layout": {
+        "row": "row_5",
+        "columns": null
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "Textarea_6",
+      "label": "Description of Ideal Date",
+      "validate": {
+        "minLength": 20,
+        "maxLength": 300,
+        "required": true
+      },
+      "key": "idealDateDescription",
+      "layout": {
+        "row": "row_6",
+        "columns": null
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "Textarea_7",
+      "label": "Description of Ideal Person",
+      "validate": {
+        "minLength": 50,
+        "maxLength": 500,
+        "required": true
+      },
+      "key": "idealPersonDescription",
+      "layout": {
+        "row": "row_6",
+        "columns": null
+      }
+    }
+  ],
+  "generated": true,
+  "type": "default"
+}

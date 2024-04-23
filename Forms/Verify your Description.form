@@ -1,0 +1,57 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "f22cba6"
+  },
+  "schemaVersion": 16,
+  "id": "verify-your-description-06a9e3u",
+  "components": [
+    {
+      "text": "# This is how we think you should be described",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0mmwisx",
+        "columns": null
+      },
+      "id": "Field_0hdg91s"
+    },
+    {
+      "text": "{{description}}",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_12gmkbu",
+        "columns": null
+      },
+      "id": "Field_0f78cw3"
+    },
+    {
+      "label": "Check box if this is ok",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rm17bt",
+        "columns": null
+      },
+      "id": "Field_055mp7n",
+      "key": "descriprionOk",
+      "defaultValue": true
+    },
+    {
+      "label": "What should be changed?",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0dhqdkh",
+        "columns": null
+      },
+      "id": "Field_0efbdke",
+      "key": "changes",
+      "conditional": {
+        "hide": "=descriprionOk"
+      }
+    }
+  ],
+  "type": "default"
+}
